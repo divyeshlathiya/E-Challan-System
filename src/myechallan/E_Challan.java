@@ -23,9 +23,9 @@ public class E_Challan {
 
     void createConnection() {
 
-        String url = "jdbc:mysql://localhost:3306/btech65";
-        String username = "root";
-        String password = "290904";
+        String url = "your url";
+        String username = "your username";
+        String password = "your password";
 
         try {
             con = DriverManager.getConnection(url,username,password);
